@@ -1,0 +1,40 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+brew "mas"
+
+# Shell
+brew "fzf"
+brew "git-delta"
+
+# Development
+brew "commitizen"
+brew "node"
+brew "pre-commit"
+brew "tldr"
+brew "zim"
+cask "cyberduck"
+cask "docker"
+cask "drawio"
+cask "google-cloud-sdk"
+cask "jetbrains-toolbox"
+cask "ngrok"
+cask "phpstorm"
+cask "pritunl"
+
+# General
+cask "appcleaner"
+cask "firefox"
+cask "google-chrome"
+cask "iterm2"
+cask "microsoft-teams"
+cask "notion"
+cask "spectacle"
+cask "sublime-text"
+
+# Personal
+cask "calibre"
+cask "spotify"
+cask "telegram"
+cask "whatsapp"
