@@ -8,6 +8,9 @@
 [push]
 	default = simple
 
+[pull]
+	rebase = true
+
 [color]
 	diff = auto
 	status = auto

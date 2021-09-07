@@ -7,13 +7,13 @@ brew "mas"
 # Shell
 brew "fzf"
 brew "git-delta"
+brew "htop"
 
 # Development
 brew "commitizen"
 brew "node"
 brew "pre-commit"
 brew "tldr"
-brew "zim"
 cask "cyberduck"
 cask "docker"
 cask "drawio"
@@ -32,6 +32,14 @@ cask "microsoft-teams"
 cask "notion"
 cask "spectacle"
 cask "sublime-text"
+mas "1Password 7", id: 1333542190
+mas "Amphetamine", id: 937984704
+mas "Battery Time", id: 547105832
+mas "JSONPeep", id: 1458969831
+mas "Sequel Ace", id: 1518036000
+mas "Slack", id: 803453959
+mas "The Unarchiver", id: 425424353
+mas "Todoist", id: 585829637
 
 # Personal
 cask "calibre"
