@@ -1,5 +1,21 @@
 # ⚫️ .dotfiles
 
+## 📓 Table of contents
+
+- [ℹ️ About](#---about)
+- [🗜 Installation](#---installation)
+    * [💻 On your mac](#---on-your-mac)
+    * [🤖 Automatic setup](#---automatic-setup)
+    * [✍️ Manual setup](#---manual-setup)
+        + [🛠 Install requirements](#---install-requirements)
+        + [🎯 Symlinks](#---symlinks)
+        + [🔧 Other](#---other)
+- [📦 Backup apps](#---backup-apps)
+- [📎 Forking](#---forking)
+- [💪 Thanks to](#---thanks-to)
+
+## ℹ️ About
+
 This .dotfiles project helps you back up, maintain and restore the basic setups and applications on your 🖥 Mac.
 
 Right now can keep:
@@ -8,7 +24,7 @@ Right now can keep:
 * Zsh config and utilities
 * Git config
 
-## Installation
+## 🗜 Installation
 
 ### 💻 On your mac
 ```shell
