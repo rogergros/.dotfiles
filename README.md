@@ -3,16 +3,16 @@
 ## 📓 Table of contents
 
 - [ℹ️ About](#ℹ%EF%B8%8F-about)
-- [🗜 Installation](#---installation)
-    * [💻 On your mac](#---on-your-mac)
-    * [🤖 Automatic setup](#---automatic-setup)
-    * [✍️ Manual setup](#---manual-setup)
-        + [🛠 Install requirements](#---install-requirements)
-        + [🎯 Symlinks](#---symlinks)
-        + [🔧 Other](#---other)
-- [📦 Backup apps](#---backup-apps)
-- [📎 Forking](#---forking)
-- [💪 Thanks to](#---thanks-to)
+- [🗜 Installation](#-installation)
+    * [💻 On your mac](#-on-your-mac)
+    * [🤖 Automatic setup](#-automatic-setup)
+    * [✍️ Manual setup](#%EF%B8%8F-manual-setup)
+        + [🛠 Install requirements](#-install-requirements)
+        + [🎯 Symlinks](#-symlinks)
+        + [🔧 Other](#-other)
+- [📦 Backup apps](#-backup-apps)
+- [📎 Forking](#-forking)
+- [💪 Thanks to](#-thanks-to)
 
 ## ℹ️ About
 
