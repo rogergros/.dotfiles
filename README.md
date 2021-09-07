@@ -2,7 +2,7 @@
 
 ## 📓 Table of contents
 
-- [ℹ️ About](#---about)
+- [ℹ️ About](#ℹ%EF%B8%8F-about)
 - [🗜 Installation](#---installation)
     * [💻 On your mac](#---on-your-mac)
     * [🤖 Automatic setup](#---automatic-setup)
