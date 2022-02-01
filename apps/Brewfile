@@ -18,10 +18,12 @@ cask "cyberduck"
 cask "docker"
 cask "drawio"
 cask "google-cloud-sdk"
-cask "jetbrains-toolbox"
 cask "ngrok"
 cask "phpstorm"
 cask "pritunl"
+cask "visual-studio-code"
+mas "JSONPeep", id: 1458969831
+mas "Xdebug Key", id: 1441712067
 
 # General
 cask "appcleaner"
@@ -30,12 +32,14 @@ cask "google-chrome"
 cask "iterm2"
 cask "microsoft-teams"
 cask "notion"
-cask "spectacle"
+cask "rectangle"
 cask "sublime-text"
+cask "table-tool"
 mas "1Password 7", id: 1333542190
 mas "Amphetamine", id: 937984704
 mas "Battery Time", id: 547105832
 mas "JSONPeep", id: 1458969831
+mas "Keynote", id: 409183694
 mas "Sequel Ace", id: 1518036000
 mas "Slack", id: 803453959
 mas "The Unarchiver", id: 425424353
@@ -43,6 +47,6 @@ mas "Todoist", id: 585829637
 
 # Personal
 cask "calibre"
-cask "spotify"
 cask "telegram"
 cask "whatsapp"
+mas "YI Home", id: 1215244636

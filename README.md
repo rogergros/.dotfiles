@@ -82,6 +82,14 @@ Generate brew backup
 brew bundle dump --file="~/.dotfiles/apps/Brewfile.tmp" --force
 ```
 
+## 🥸 Custom files
+
+Some times you want to add customizations that you don't want to version.
+Let's say that you use that at work and you want to keep some environment variables.
+This dotfiles look for specific custom files:
+* `~/.zshenv_custom` → For custom environment variables
+
+
 ## 📎 Forking
 
 If you want to fork this repository remember to change:
