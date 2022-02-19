@@ -6,7 +6,7 @@ reset=`tput sgr0`
 
 # Set computer name
 current_computer_name=$(scutil --get ComputerName)
-echo "Enter computer name (default: ${current_computer_name}) [y]: "
+echo "Enter computer name [${current_computer_name}]:"
 read computer_name
 computer_name="${computer_name:=$current_computer_name}"
 sudo scutil --set ComputerName ${computer_name};sudo scutil --set HostName ${computer_name};sudo scutil --set LocalHostName ${computer_name};sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string ${computer_name}
@@ -54,8 +54,8 @@ defaults write .GlobalPreferences com.apple.mouse.scaling -float 2.5
 ### Trackpad speed
 defaults write .GlobalPreferences com.apple.trackpad.scaling -float 1.5
 ### Key repeat
-defaults write .GlobalPreferences InitialKeyRepeat -int 25
-defaults write .GlobalPreferences KeyRepeat -int 25
+defaults write .GlobalPreferences InitialKeyRepeat -int 15
+defaults write .GlobalPreferences KeyRepeat -int 2
 
 ## Updates
 

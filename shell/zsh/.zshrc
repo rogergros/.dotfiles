@@ -23,5 +23,4 @@ prompt minimal
 source "$DOTFILES_PATH/shell/zsh/bindings/reverse_search.zsh"
 
 # Google sdk and completion
-source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"

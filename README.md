@@ -28,7 +28,7 @@ Right now can keep:
 
 ### 💻 On your mac
 ```shell
-git clone git@github.com:rogergros/.dotfiles.git ~/
+git clone git@github.com:rogergros/.dotfiles.git ~
 ```
 
 ### 🤖 Automatic setup
@@ -40,11 +40,13 @@ git clone git@github.com:rogergros/.dotfiles.git ~/
 
 #### 🛠 Install requirements
 ```shell
-# Install brew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 # Install Zim framework for ZSH
 curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
+
+# Install brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 #### 🎯 Symlinks
