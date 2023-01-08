@@ -24,3 +24,9 @@ source "$DOTFILES_PATH/shell/zsh/bindings/reverse_search.zsh"
 
 # Google sdk and completion
 source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+
+# Use brew Ruby instead of Mac one
+if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
+  export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+  export PATH=`gem environment gemdir`/bin:$PATH
+fi

@@ -10,21 +10,22 @@ brew "git-delta"
 brew "htop"
 
 # Development
-brew "commitizen"
 brew "node"
 brew "pre-commit"
+brew "ruby"
 brew "tldr"
-cask "cyberduck"
+brew "yarn"
 cask "docker"
 cask "drawio"
+cask "figma"
 cask "google-cloud-sdk"
 cask "ngrok"
-cask "phpstorm"
 cask "visual-studio-code"
 mas "JSONPeep", id: 1458969831
 mas "Xdebug Key", id: 1441712067
 
 # General
+cask "1password"
 cask "appcleaner"
 cask "firefox"
 cask "google-chrome"
@@ -33,10 +34,13 @@ cask "notion"
 cask "rectangle"
 cask "sublime-text"
 cask "table-tool"
-mas "1Password 7", id: 1333542190
+mas "1Password for Safari", id: 1569813296
 mas "Amphetamine", id: 937984704
 mas "Battery Time", id: 547105832
+mas "GoodLinks", id: 1474335294
 mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "Sequel Ace", id: 1518036000
 mas "Slack", id: 803453959
 mas "The Unarchiver", id: 425424353
@@ -46,4 +50,6 @@ mas "Todoist", id: 585829637
 cask "calibre"
 cask "telegram"
 cask "whatsapp"
-mas "YI Home", id: 1215244636
+mas "Parcel", id: 639968404
+mas "Pixelmator Pro", id: 1289583905
+mas "Sequel Ace", id: 1518036000
