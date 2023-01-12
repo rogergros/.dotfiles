@@ -8,11 +8,15 @@ reset=`tput sgr0`
 current_computer_name=$(scutil --get ComputerName)
 echo "Enter computer name [${current_computer_name}]:"
 read computer_name
+
 computer_name="${computer_name:=$current_computer_name}"
+echo "> ${green}Setting computer name to ${reset}${computer_name}"
 sudo scutil --set ComputerName ${computer_name};sudo scutil --set HostName ${computer_name};sudo scutil --set LocalHostName ${computer_name};sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string ${computer_name}
 
 # OS defaults
 # More info: https://macos-defaults.com
+
+echo "> ${green}Setting MacOS defaults${reset}"
 
 ## Dock
 
@@ -74,7 +78,10 @@ defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
 ### Change default screenshot folder
 
-mkdir -p ~/Pictures/screenshots
+screenshots_folder="~/Pictures/screenshots"
+eval full_screenshots_folder=$screenshots_folder
+mkdir -p "$full_screenshots_folder"
+echo "> ${green}Changing screnshots folder to ${reset}${screenshots_folder}"
 defaults write com.apple.screencapture location ~/Pictures/screenshots
 
 ## Other

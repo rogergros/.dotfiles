@@ -13,13 +13,15 @@ source "$ZIM_HOME/init.zsh"
 ZSH_AUTOSUGGEST_USE_ASYNC=true
 ZSH_HIGHLIGHT_MAXLENGTH=300
 
+# Load shared bash config
 source "$DOTFILES_PATH/shell/init.sh"
 
+# Load zsh pluguins, themes and completions
 fpath=("$DOTFILES_PATH/shell/zsh/themes" "$DOTFILES_PATH/shell/zsh/completions" $fpath)
-
 autoload -Uz promptinit && promptinit
 prompt minimal
 
+# Load reverse search
 source "$DOTFILES_PATH/shell/zsh/bindings/reverse_search.zsh"
 
 # Google sdk and completion
