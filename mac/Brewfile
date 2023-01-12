@@ -27,6 +27,7 @@ mas "Xdebug Key", id: 1441712067
 # General
 cask "1password"
 cask "appcleaner"
+cask "cron"
 cask "firefox"
 cask "google-chrome"
 cask "iterm2"

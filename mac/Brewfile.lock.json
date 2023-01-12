@@ -556,6 +556,12 @@
         "options": {
           "full_name": "1password"
         }
+      },
+      "cron": {
+        "version": "1.110.0",
+        "options": {
+          "full_name": "cron"
+        }
       }
     },
     "mas": {
