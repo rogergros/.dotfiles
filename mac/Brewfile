@@ -10,24 +10,26 @@ brew "git-delta"
 brew "htop"
 
 # Development
-brew "node"
-brew "pre-commit"
-brew "ruby"
-brew "tldr"
-brew "yarn"
+brew "awscli"
 cask "docker"
+brew "docker-compose"
 cask "drawio"
 cask "figma"
 cask "google-cloud-sdk"
 cask "ngrok"
+brew "node"
+brew "pre-commit"
+brew "ruby"
+brew "tldr"
 cask "visual-studio-code"
+brew "yarn"
 mas "JSONPeep", id: 1458969831
 mas "Xdebug Key", id: 1441712067
 
 # General
 cask "1password"
+cask "arc"
 cask "appcleaner"
-cask "cron"
 cask "firefox"
 cask "google-chrome"
 cask "iterm2"
@@ -36,21 +38,28 @@ cask "rectangle"
 cask "sublime-text"
 cask "table-tool"
 mas "1Password for Safari", id: 1569813296
-mas "Amphetamine", id: 937984704
-mas "Battery Time", id: 547105832
+mas "Battery Indicator", id: 1206020918
+mas "Dato", id: 1470584107
 mas "GoodLinks", id: 1474335294
 mas "Keynote", id: 409183694
+mas "Lungo", id: 1263070803
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Sequel Ace", id: 1518036000
 mas "Slack", id: 803453959
 mas "The Unarchiver", id: 425424353
 mas "Todoist", id: 585829637
+mas "Velja", id: 1607635845
 
 # Personal
 cask "calibre"
 cask "telegram"
+cask "transmission"
+cask "vlc"
 cask "whatsapp"
 mas "Parcel", id: 639968404
 mas "Pixelmator Pro", id: 1289583905
-mas "Sequel Ace", id: 1518036000
+mas "SubShifter", id: 1457012736
+
+#Vscode
+vscode "GitHub.copilot"

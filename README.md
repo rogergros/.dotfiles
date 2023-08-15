@@ -28,12 +28,15 @@ Right now can keep:
 
 ### 💻 On your mac
 ```shell
-git clone git@github.com:rogergros/.dotfiles.git ~
+git clone https://github.com/rogergros/.dotfiles.git ~
 ```
 
 ### 🤖 Automatic setup
 ```shell
 ./setup.sh
+
+# In a mac
+./setup_mac.sh
 ```
 
 ### ✍️ Manual setup
@@ -67,7 +70,7 @@ ln -s ~/.dotfiles/git/.gitignore_global ~/.gitignore_global
 
 Install brew apps
 ```shell
-brew bundle --file="~/.dotfiles/apps/Brewfile"
+brew bundle --file="~/.dotfiles/mac/Brewfile"
 ```
 
 #### 🔧 Other
@@ -81,7 +84,7 @@ touch ~/.z
 Generate brew backup
 ```shell
 # Generated as tmp to diff and take only what you want
-brew bundle dump --file="~/.dotfiles/apps/Brewfile.tmp" --force
+brew bundle dump --file="~/.dotfiles/mac/Brewfile.tmp" --force
 ```
 
 ## 🥸 Custom files

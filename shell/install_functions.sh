@@ -5,5 +5,6 @@ create_links() {
   do
     CREATE_LINK_CMD="ln -sf $line"
     echo "${green}Created link:${reset} $CREATE_LINK_CMD"
+    eval "ln -sf $line"
   done < "$1"
 }
